@@ -7,3 +7,20 @@
 .UsersList .UsersList__button {
   margin-bottom: 20px;
 }
+
+@media screen and (max-width: 991px) {
+  .UsersList {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 567px) {
+  .UsersList {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .UsersList .MuiButton-label {
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,31 @@
+@media screen and (max-width: 576px) {
+  .MuiTableContainer-root .MuiTableCell-root {
+    padding: 8px;
+    font-size: 10px;
+  }
+
+  .MuiPaper-root .MuiTypography-root {
+    font-size: 10px;
+  }
+
+  .MuiPaper-root .MuiSelect-root {
+    font-size: 10px;
+  }
+
+  .MuiPaper-root .MuiTablePagination-selectRoot {
+    margin-left: 0;
+    margin-right: 10px;
+  }
+
+  .MuiPaper-root .MuiTablePagination-actions {
+    margin-left: 0 ;
+  }
+
+  .MuiPaper-root .MuiTablePagination-root .MuiButtonBase-root {
+    padding: 0;
+  }
+
+  .MuiPaper-root .MuiTypography-root {
+    padding-right: 10px;
+  }
+}

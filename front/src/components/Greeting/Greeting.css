@@ -16,3 +16,13 @@
   font-size: 32px;
   text-align: center;
 }
+
+@media screen and (max-width: 576px) {
+  .Greeting {
+    padding: 15px;
+  }
+
+  .Greeting__title {
+    font-size: 24px;
+  }
+}

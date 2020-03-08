@@ -10,6 +10,7 @@ import TablePagination from '@material-ui/core/TablePagination';
 import TableRow from '@material-ui/core/TableRow';
 import TableSortLabel from '@material-ui/core/TableSortLabel';
 import Paper from '@material-ui/core/Paper';
+import './EnchancedTable.css';
 
 function descendingComparator(a, b, orderBy) {
   if (b[orderBy] < a[orderBy]) {
@@ -107,7 +108,7 @@ const useStyles = makeStyles(theme => ({
     position: 'absolute',
     top: 20,
     width: 1,
-  },
+  }
 }));
 
 export default function EnhancedTable({ users }) {

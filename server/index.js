@@ -5,7 +5,6 @@ const app = express();
 const http = require('http').Server(app);
 
 app.use(cors());
-// app.use(bodyParser());
 
 const firstNames = [
   "Андрей",

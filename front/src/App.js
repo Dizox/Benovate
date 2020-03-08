@@ -4,6 +4,8 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 import { store } from './Store';
 import Greeting from "./components/Greeting/Greeting";
 import UsersList from "./components/UsersList/UsersList";
+import 'react-app-polyfill/ie11';
+import 'react-app-polyfill/stable';
 
 
 export default function App() {

@@ -180,6 +180,12 @@ export default function EnhancedTable({ users }) {
           page={page}
           onChangePage={handleChangePage}
           onChangeRowsPerPage={handleChangeRowsPerPage}
+          labelRowsPerPage={"Элементов на странице"}
+          labelDisplayedRows={
+            ({ from, to, count }) => {
+              return `${from}-${to === -1 ? count : to} из ${count !== -1 ? count : '0'}`
+            }
+          }
         />
       </Paper>
     </div>

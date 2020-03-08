@@ -14,7 +14,7 @@
 
   .MuiPaper-root .MuiTablePagination-selectRoot {
     margin-left: 0;
-    margin-right: 10px;
+    margin-right: 5px;
   }
 
   .MuiPaper-root .MuiTablePagination-actions {
@@ -26,6 +26,14 @@
   }
 
   .MuiPaper-root .MuiTypography-root {
-    padding-right: 10px;
+    padding-right: 5px;
+  }
+
+  .MuiPaper-root .MuiToolbar-gutters {
+    padding-left: 8px;
+  }
+
+  .MuiPaper-root .MuiTablePagination-select {
+    padding-left: 3px;
   }
 }

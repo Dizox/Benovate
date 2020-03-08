@@ -5,10 +5,6 @@ import Button from '@material-ui/core/Button';
 import { Link } from 'react-router-dom';
 import './UsersList.css';
 
-const initial = {
-  firstName: '',
-}
-
 export default function UsersList() {
   const [users, setUsers] = useState([]);
 
@@ -26,8 +22,8 @@ export default function UsersList() {
       <Button className="UsersList__button" component={Link} to='/' variant="contained" color="default">
         Вернуться на главную страницу
       </Button>
-      <AddUser users={ users } fetchUsers={ fetchUsers } />
-      <EnhancedTable users={ users } />
+      <AddUser users={users} setUsers={setUsers} />
+      <EnhancedTable users={users} />
     </div>
   );
 }

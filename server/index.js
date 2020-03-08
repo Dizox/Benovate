@@ -64,7 +64,7 @@ const randomInteger = (min, max) => {
 const generateUsers = () => {
   let generatedUsers = [];
 
-  for (let i = 0; i < 10000; i++) {
+  for (let i = 0; i < 102; i++) {
     generatedUsers.push({
       "id": i,
       "firstName": getRandomValue(firstNames),

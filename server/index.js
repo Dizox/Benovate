@@ -6,7 +6,6 @@ const http = require('http').Server(app);
 const io = require('socket.io')(http);
 
 app.use(cors());
-// app.use(bodyParser());
 
 const firstNames = [
   "Андрей",
@@ -64,7 +63,7 @@ const randomInteger = (min, max) => {
 const generateUsers = () => {
   let generatedUsers = [];
 
-  for (let i = 0; i < 102; i++) {
+  for (let i = 0; i < 99101; i++) {
     generatedUsers.push({
       "id": i,
       "firstName": getRandomValue(firstNames),

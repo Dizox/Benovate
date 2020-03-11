@@ -11,18 +11,18 @@ import 'react-app-polyfill/stable';
 export default function App() {
   return (
     <div className="App">
-    <Provider store={store}>
-      <BrowserRouter>
-        <Switch>
-          <Route exact path='/'>
-            <Greeting />
-          </Route>
-          <Route exact path='/UsersList'>
-            <UsersList />
-          </Route>
-        </Switch>
-      </BrowserRouter>
-    </Provider>
+      <Provider store={store}>
+        <BrowserRouter>
+          <Switch>
+            <Route exact path='/'>
+              <Greeting />
+            </Route>
+            <Route exact path='/UsersList'>
+              <UsersList />
+            </Route>
+          </Switch>
+        </BrowserRouter>
+      </Provider>
     </div>
   );
 }
